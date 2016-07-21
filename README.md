@@ -11,7 +11,7 @@ The username / password for the VM is `ubuntu/ubuntu`
 1. Run `sudo hab setup`
 2. Follow these instructions, as illustrated here ![](http://i.imgur.com/jQoVosP.png)![](http://i.imgur.com/UWGUxbA.png)![](http://i.imgur.com/qGMU9jm.png):
   * Set up a default origin? [Yes/no/quit] y
-  * Default origin name: [default: ubuntu] <yourname>_habitat
+  * Default origin name: [default: ubuntu] yourname_habitat
   * Create an origin key for `forest_habitat'? [Yes/no/quit] y
   * Set up a default GitHub access token? [Yes/no/quit] n
   * Enable analytics? [Yes/no/quit] n
