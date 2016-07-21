@@ -149,3 +149,9 @@ sudo docker run -it -p 8080:8080 <yourname>_habitat/mytutorialapp
 Open your browser and go to the IP displayed by the ifconfig command on the port 8080.  
 ![](http://i.imgur.com/Q98U6cL.png)
 ![](http://i.imgur.com/bzQJuYQ.png)
+
+## Run Forest's version of the tutorial from the Habitat's depot at app.habitat.sh
+
+```
+sudo hab start forest/mytutorialapp --group tutorial.devopspg --strategy at-once
+```
