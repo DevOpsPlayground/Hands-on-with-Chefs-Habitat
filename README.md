@@ -94,7 +94,7 @@ Run `build` and watch the magic happen.
 Now the application has been built and compiled but it's not running. 
 Under the /src folder create a new folder called `hooks` and go inside: `mkdir hooks` followed by `cd hooks`. 
 
-There, create the `init` file which will create symbolic links between the package and the npm server, allowing to deploy easily. Note that the shebangs are important for Habitat to decide which interpreter is going to be used.
+There, create the `init` file which will create symbolic links between the location of the package and the directory used when the server starts. Note that the shebangs are important for Habitat to decide which interpreter is going to be used.
 ```
 #!/bin/sh
 #
