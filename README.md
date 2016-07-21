@@ -7,6 +7,15 @@ To use the VM you will need to have VirtualBox installed, you can download load 
 ​
 The username / password for the VM is `ubuntu/ubuntu`
 
+## Quick configuration
+Create the hab user and group, and add the ubuntu user to the docker group.
+```
+sudo useradd hab -u 42 -g 42 -d / -s /bin/sh -r
+sudo groupadd -og 42 hab
+sudo usermod -a -G docker ubuntu
+```
+
+
 ## Setting up Habitat
 1. Run `sudo hab setup`
 2. Follow these instructions, as illustrated here ![](http://i.imgur.com/jQoVosP.png)![](http://i.imgur.com/UWGUxbA.png)![](http://i.imgur.com/qGMU9jm.png):
