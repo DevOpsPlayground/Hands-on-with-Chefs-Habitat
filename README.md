@@ -67,7 +67,8 @@ do_install() {
   # Copy over the nconf module to the package that we installed in do_build().
   mkdir -p ${pkg_prefix}/node_modules/
   cp -vr node_modules/* ${pkg_prefix}/node_modules/
-}```
+}
+```
 
 ![](http://i.imgur.com/Omjzub2.png)
 
